@@ -2,7 +2,16 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\charactorController.cs">
     <Files>
-      <File FileName="Assets\scripts\charactorController.cs" Line="5" Column="1" />
+      <File FileName="Assets\scripts\charactorController.cs" Line="44" Column="61" />
+      <File FileName="..\..\Anpanman\Assets\Script\MenuController.cs" Line="1" Column="1" />
+      <File FileName="..\..\Osomatsusan\Assets\Scripts\CharactorController.cs" Line="1" Column="1" />
+      <File FileName="..\..\Osomatsusan\Assets\Scripts\GameContrller.cs" Line="116" Column="1" />
+      <File FileName="..\..\Anpanman\Assets\Script\Play02Controller.cs" Line="1" Column="1" />
+      <File FileName="..\..\Anpanman\Assets\Script\Play03Controller.cs" Line="1" Column="1" />
+      <File FileName="..\..\Anpanman\Assets\Script\PlayController.cs" Line="193" Column="1" />
+      <File FileName="..\..\Nejikorun\Assets\Scripts\TirleController.cs" Line="1" Column="1" />
+      <File FileName="..\..\Nejikorun\Assets\Scripts\GameController.cs" Line="1" Column="1" />
+      <File FileName="..\..\Nejikorun\Assets\Scripts\SimpleFollow.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

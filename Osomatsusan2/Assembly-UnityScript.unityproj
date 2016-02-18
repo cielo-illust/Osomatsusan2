@@ -46,6 +46,18 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Locomotion Setup\Scripts\SmoothFollow.js" />
+     <None Include="Assets\ZRNAssets\license_en.txt" />
+     <None Include="Assets\ZRNAssets\license_jp.txt" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\license_jp.txt" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\license_en.txt" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_DoubleSide.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Documents\ReadMe.txt" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_way.shader" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_river.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
