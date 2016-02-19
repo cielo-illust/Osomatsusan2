@@ -5,11 +5,13 @@ public class charactorController : MonoBehaviour {
 
 	private Vector3 dir;
 	private Animator animator;
+	private bool flag;
 
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator> ();
 		dir = transform.position;
+		flag = false;
 	}
 
 	// Update is called once per frame
@@ -35,8 +37,9 @@ public class charactorController : MonoBehaviour {
 				if (hit.collider.gameObject.tag == "Base") {
 					dir = new Vector3 (hit.point.x, hit.point.y, hit.point.z);
 
-					if (Mathf.Abs((transform.position - dir).magnitude) >= 0.1f) {
-						animator.SetBool ("walk", true);
+					if (Mathf.Abs((transform.position - dir).magnitude) >= 0.2f) {
+						animator.SetBool ("run", true);
+						flag = true;
 						float dx = dir.x - transform.position.x;
 						float dz = dir.z - transform.position.z;
 						float rad = Mathf.Atan2 (dz, dx);
@@ -47,8 +50,13 @@ public class charactorController : MonoBehaviour {
 			}
 		}
 
-		if (Mathf.Abs((transform.position - dir).magnitude) < 0.1f) {
-			animator.SetBool ("walk", false);
+		if (flag) {
+			if (Mathf.Abs ((transform.position - dir).magnitude) < 0.2f) {
+				animator.SetBool ("run", false);
+				flag = false;
+			} else {
+				transform.LookAt(new Vector3(dir.x, transform.position.y, dir.z));
+			}
 		}
 	}
 }
